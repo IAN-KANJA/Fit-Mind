@@ -1,7 +1,7 @@
-import React from 'react';
-from flask import Flask ,request, jsonify, render_template
-from flask_sqlalchemy import SQLAlchemy
+import React, {useState} from "react";
 
-
-
-export default MindfulnessSessionsPage;
+function MindExercise(){
+  const [name, setName] = useState('')
+  const [description, setDescription] = useState('');
+  const [difficulty , setDifficulty] = useState('');
+}
